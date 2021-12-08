@@ -1,0 +1,67 @@
+<html>
+	<head>
+<TITLE>Deporte</TITLE>
+<link rel="stylesheet" type="text/css" href="estilos/estilos1.css">
+<style>
+	.a{
+		background-image: url("form2.png");
+	}
+</style>
+</HEAD>
+
+<BODY style="BACKGROUND-COLOR:#9ed1ef" align="center" background="fondoblanco2.png">
+    
+<HR>
+	<h1>Rellena este formulario para encontrar gente deportista</h1>
+        <HR>
+            <form action="basico.php" method="POST" align="right">
+                <fieldset align="left" cols="20" class="a">
+                    <legend></legend>
+
+                    <label for=”name”>Tu nombre:</label>
+                    <input type="text" id=”name” name=”name” placeholder="Introduce tu nombre"><br>
+                    <br>
+                    <label for=”correo”>Dirección de e-mail:</label>
+                    <input type="email" id=”correo” name=”correo”  placeholder="Introduce tu correo"><br>
+                    <br>
+                    <label for=”ciudad”>Ciudad:</label>
+                    <input type="text" id=”ciudad” name=”ciudad” placeholder="Ciudad en la que resides"><br>
+                    <br>
+                    <br>
+                    <br>
+					          <label for=”deporte”>Deporte:</label>
+                    <SELECT NAME="deporte" TYPE="TEXT"><br><br>
+                        <OPTION VALUE="1">Selecciona
+                        <OPTION VALUE="2">Fútbol
+                        <OPTION VALUE="3">Baloncesto
+                        <OPTION VALUE="4">Raquetas
+                        <OPTION VALUE="5">Aire libre
+                    </SELECT>
+                    <br>
+                    <br>
+                
+                    ¿Cual es tu nivel en ese deporte?
+                    <br>
+                    <div id=prioridad>
+						<INPUT NAME="estado" TYPE=RADIO VALUE="Amigos">Bajo
+						<INPUT NAME="estado" TYPE=RADIO VALUE="Ligar">Medio
+						<INPUT NAME="estado" TYPE=RADIO VALUE="Ambos">Alto
+					</div>
+                                 
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar (No disponible actualmente)">
+                    <input type="reset" value="Comenzar de nuevo">
+					
+                </fieldset>
+			</form><a href="paginader.html"><div id=ini><input type="button" value="INICIO"></div></a>
+			
+	<br>
+	<br>
+		
+</div>
+
+
+</BODY>
+</html>
+    

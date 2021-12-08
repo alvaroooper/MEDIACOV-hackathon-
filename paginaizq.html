@@ -1,0 +1,41 @@
+ <html>
+  <head>
+      <script>
+        var par=false;
+        function parpadeo() {
+          col=par ? 'red' : 'purple';
+          par = !par;
+          setTimeout("parpadeo()",500); //500 = medio segundo
+        }
+        window.onload=parpadeo;
+      </script>
+      <meta charset="UTF-8">
+        <title>MEDIACOP</title>
+  </head>
+  
+  <body style="BACKGROUND-COLOR:#9ed1ef" vlink="black" vlink="blue" background="fondonegro.jpg"> 
+    <p>
+    <div>
+        <img src="logo3.png" align="center" width="225" height="225">
+    </div>
+    <br>
+        <ul>
+      <font face="Optima">
+        <big>
+        <li><a href="fiesta.html" target="dinamico">Quiero salir de fiesta</a></li>
+        <br>
+        <li><a href="deporte.html" target="dinamico">Quiero hacer deporte</a></li>
+        <br>
+        <li><a href="amigos.html" target="dinamico">Quiero hacer amigos</a></li>
+        <br>
+        <li><a href="otros.html" target="dinamico">Quiero hacer cosas distintas</a></li>
+      </big>
+
+        <br>
+      </font>
+      
+        </ul>
+        <br>
+      
+  </body>
+</html>
